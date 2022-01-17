@@ -1,3 +1,2 @@
 nextcord
-random
 aiohttp
