@@ -1,3 +1,2 @@
 nextcord
 aiohttp
-botoken2.py
