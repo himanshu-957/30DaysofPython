@@ -1,12 +1,10 @@
 import nextcord
-from  dotenv.main import load_env
 from nextcord.ext import commands
-import os
+import botoken2
 import random
 import aiohttp
 clients = commands.Bot(command_prefix="!")
 clients.remove_command("help")
-load_env()
 
 @clients.command()
 async def help(ctx):
@@ -45,4 +43,4 @@ async def meme(ctx):
 #     if ctx.content.startswith("Hello"):
 #         channel = ctx.channel
 #         channel.send("Hi")
-clients.run(os.getenv("TOKEN"))
+clients.run(botoken2.TOKEN)
