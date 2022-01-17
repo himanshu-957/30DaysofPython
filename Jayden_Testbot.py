@@ -42,4 +42,4 @@ async def meme(ctx):
 #     if ctx.content.startswith("Hello"):
 #         channel = ctx.channel
 #         channel.send("Hi")
-clients.run("TOKEN")
+clients.run("OTI3MjIxOTc3NzcxNTUyNzcw.YdHEwg.n2uU1IHm-xujLMolfsPX0UHXToc")
