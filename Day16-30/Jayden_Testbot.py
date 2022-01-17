@@ -1,6 +1,6 @@
 import nextcord
 from nextcord.ext import commands
-import botoken1
+import botoken2
 import random
 import aiohttp
 clients = commands.Bot(command_prefix="!")
@@ -43,4 +43,4 @@ async def meme(ctx):
 #     if ctx.content.startswith("Hello"):
 #         channel = ctx.channel
 #         channel.send("Hi")
-clients.run(botoken1.TOKEN)
+clients.run(botoken2.TOKEN)
