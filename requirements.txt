@@ -1,3 +1,2 @@
 nextcord
 aiohttp
-python-dotenv
